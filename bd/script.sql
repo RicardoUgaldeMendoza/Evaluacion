@@ -31,7 +31,7 @@ CREATE TABLE Entregas (
 );
 
 INSERT INTO Agentes (nombre_usuario, hash_contrasena, nombre_completo) VALUES 
-('agente01', MD5('password123'), 'Juan Pérez'), -- MD5 es usado en la API
+('agente01', MD5('password123'), 'Juan Pérez'),
 ('agente02', MD5('contrasena456'), 'María López');
 
 INSERT INTO Paquetes (id_unico_rastreo, direccion_destino, id_agente_asignado) VALUES 
